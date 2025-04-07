@@ -4,16 +4,20 @@ document.addEventListener('DOMContentLoaded', function () {
     accordionHeaders.forEach(header => {
         header.addEventListener('click', function () {
             const content = this.nextElementSibling;
-            const isOpen = content.style.display === 'block';
+            const isOpen = content.classList.contains('active');
 
             // Cerrar todos los acordeones
             document.querySelectorAll('.accordion-content').forEach(item => {
-                item.style.display = 'none';
+                item.classList.remove('active');
+            });
+            document.querySelectorAll('.accordion-header').forEach(item => {
+                item.classList.remove('active');
             });
 
             // Abrir el acordeón clicado si no estaba abierto
             if (!isOpen) {
-                content.style.display = 'block';
+                content.classList.add('active');
+                this.classList.add('active');
             }
         });
     });
