@@ -4,7 +4,7 @@ document.getElementById('contact-form').addEventListener('submit', function(e) {
     const form = e.target;
     const data = new FormData(form);
 
-    fetch('https://formspree.io/f/tu-id', {  // Reemplaza "tu-id" con el ID de Formspree
+    fetch('https://formspree.io/f/tu-id', {  // Reemplaza "tu-id" con tu endpoint de Formspree
         method: 'POST',
         body: data,
         headers: {

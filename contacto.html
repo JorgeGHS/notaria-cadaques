@@ -5,38 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto - Notaría de Cadaqués</title>
     <link rel="stylesheet" href="/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 <header>
-    <img src="/img/logo.png" alt="Logo Notaría de Cadaqués" class="logo">
-    <h1>Notaría de Cadaqués</h1>
-    <nav>
-        <ul>
-            <li><a href="/index.html">Inicio</a></li>
-            <li><a href="/servicios.html">Lo que hacemos</a></li>
-            <li><a href="/ubicacion.html">Dónde estamos</a></li>
-            <li><a href="/contacto.html">Contacto</a></li>
-        </ul>
-    </nav>
+    <div class="header-container">
+        <img src="/img/logo.png" alt="Logo Notaría de Cadaqués" class="logo">
+        <nav>
+            <ul>
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="/servicios.html">Lo que hacemos</a></li>
+                <li><a href="/ubicacion.html">Dónde estamos</a></li>
+                <li><a href="/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
 </header>
 <main>
-    <section>
+    <section class="contact">
         <h2>Contacto</h2>
-        <form id="contact-form">
+        <form id="contact-form" class="contact-form">
             <label for="nombre">Nombre:</label>
             <input type="text" id="nombre" name="nombre" required>
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required>
             <label for="mensaje">Mensaje:</label>
             <textarea id="mensaje" name="mensaje" required></textarea>
-            <button type="submit">Enviar</button>
+            <button type="submit" class="btn">Enviar mensaje</button>
         </form>
-        <p>Teléfono: 972 259 066</p>
-        <p>Email: <a href="mailto:notariadecadaques@gmail.com">notariadecadaques@gmail.com</a></p>
+        <div class="contact-info">
+            <p><strong>Teléfono:</strong> 972 259 066</p>
+            <p><strong>Email:</strong> <a href="mailto:notariadecadaques@gmail.com">notariadecadaques@gmail.com</a></p>
+        </div>
     </section>
 </main>
 <footer>
-    <p>© 2025 Notaría de Cadaqués. Todos los derechos reservados.</p>
+    <div class="footer-container">
+        <div class="footer-logo">
+            <img src="/img/logo.png" alt="Logo Notaría de Cadaqués" class="logo">
+        </div>
+        <div class="footer-menu">
+            <h3>Navegación</h3>
+            <ul>
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="/servicios.html">Lo que hacemos</a></li>
+                <li><a href="/ubicacion.html">Dónde estamos</a></li>
+                <li><a href="/contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+        <div class="footer-horario">
+            <h3>Horario</h3>
+            <p>Lunes a viernes: 9:00 - 14:00 / 16:00 - 19:00</p>
+            <p>(Horario provisional, pendiente de confirmación)</p>
+        </div>
+    </div>
+    <p class="footer-copy">© 2025 Notaría de Cadaqués. Todos los derechos reservados.</p>
 </footer>
 <script src="/js/contacto.js"></script>
 </body>

@@ -5,29 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Notaría de Cadaqués</title>
     <link rel="stylesheet" href="/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 <header>
-    <img src="/img/logo.png" alt="Logo Notaría de Cadaqués" class="logo">
-    <h1>Notaría de Cadaqués</h1>
-    <nav>
-        <ul>
-            <li><a href="/index.html">Inicio</a></li>
-            <li><a href="/servicios.html">Lo que hacemos</a></li>
-            <li><a href="/ubicacion.html">Dónde estamos</a></li>
-            <li><a href="/contacto.html">Contacto</a></li>
-        </ul>
-    </nav>
+    <div class="header-container">
+        <img src="/img/logo.png" alt="Logo Notaría de Cadaqués" class="logo">
+        <nav>
+            <ul>
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="/servicios.html">Lo que hacemos</a></li>
+                <li><a href="/ubicacion.html">Dónde estamos</a></li>
+                <li><a href="/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
 </header>
 <main>
-    <section>
-        <h2>Bienvenidos a la Notaría de Cadaqués</h2>
-        <p>Somos la notaría de referencia en Cadaqués, dirigida por Pedro García de los Huertos Sánchez. Nuestra filosofía se basa en ofrecer un servicio cercano, profesional y eficiente para resolver tus necesidades legales con total confianza.</p>
-        <p>Especializados en herencias, testamentos, compraventas y más, estamos aquí para ayudarte en cada paso.</p>
+    <section class="hero">
+        <img src="/img/cadaques.jpg" alt="Vista de Cadaqués" class="hero-image">
+        <div class="hero-content">
+            <h1>Notaría de Cadaqués</h1>
+            <p>Servicio profesional y cercano en el corazón de Cadaqués. Dirigida por Pedro García de los Huertos Sánchez.</p>
+            <div class="hero-buttons">
+                <a href="/servicios.html" class="btn">Descubre nuestros servicios</a>
+                <a href="/contacto.html" class="btn btn-secondary">Contáctanos</a>
+            </div>
+        </div>
     </section>
 </main>
 <footer>
-    <p>© 2025 Notaría de Cadaqués. Todos los derechos reservados.</p>
+    <div class="footer-container">
+        <div class="footer-logo">
+            <img src="/img/logo.png" alt="Logo Notaría de Cadaqués" class="logo">
+        </div>
+        <div class="footer-menu">
+            <h3>Navegación</h3>
+            <ul>
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="/servicios.html">Lo que hacemos</a></li>
+                <li><a href="/ubicacion.html">Dónde estamos</a></li>
+                <li><a href="/contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+        <div class="footer-horario">
+            <h3>Horario</h3>
+            <p>Lunes a viernes: 9:00 - 14:00 / 16:00 - 19:00</p>
+            <p>(Horario provisional, pendiente de confirmación)</p>
+        </div>
+    </div>
+    <p class="footer-copy">© 2025 Notaría de Cadaqués. Todos los derechos reservados.</p>
 </footer>
 </body>
 </html>

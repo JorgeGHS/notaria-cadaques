@@ -5,41 +5,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lo que hacemos - Notaría de Cadaqués</title>
     <link rel="stylesheet" href="/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 <header>
-    <img src="/img/logo.png" alt="Logo Notaría de Cadaqués" class="logo">
-    <h1>Notaría de Cadaqués</h1>
-    <nav>
-        <ul>
-            <li><a href="/index.html">Inicio</a></li>
-            <li><a href="/servicios.html">Lo que hacemos</a></li>
-            <li><a href="/ubicacion.html">Dónde estamos</a></li>
-            <li><a href="/contacto.html">Contacto</a></li>
-        </ul>
-    </nav>
+    <div class="header-container">
+        <img src="/img/logo.png" alt="Logo Notaría de Cadaqués" class="logo">
+        <nav>
+            <ul>
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="/servicios.html">Lo que hacemos</a></li>
+                <li><a href="/ubicacion.html">Dónde estamos</a></li>
+                <li><a href="/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
 </header>
 <main>
-    <section>
+    <section class="services">
         <h2>Nuestros servicios</h2>
-        <ul>
-            <li><strong>Herencias:</strong> Gestión integral de sucesiones.</li>
-            <li><strong>Testamentos:</strong> Redacción y asesoramiento.</li>
-            <li><strong>Pactos de Mejora:</strong> Planificación hereditaria.</li>
-            <li><strong>Compraventas:</strong> Contratos de propiedad.</li>
-            <li><strong>Hipotecas:</strong> Formalización y gestión.</li>
-            <li><strong>Cancelación de hipotecas:</strong> Trámites completos.</li>
-            <li><strong>Bodas:</strong> Matrimonios civiles ante notario.</li>
-            <li><strong>Divorcios:</strong> Separaciones notariales.</li>
-            <li><strong>Poderes:</strong> Autorizaciones legales.</li>
-            <li><strong>Sociedades:</strong> Constitución y modificación.</li>
-            <li><strong>Gestión de escrituras:</strong> Redacción y registro.</li>
-            <li><strong>Legitimaciones y compulsas:</strong> Certificación de documentos.</li>
-        </ul>
+        <div class="services-grid">
+            <div class="card">
+                <h3>Herencias</h3>
+                <p>Gestión integral de sucesiones.</p>
+            </div>
+            <div class="card">
+                <h3>Testamentos</h3>
+                <p>Redacción y asesoramiento.</p>
+            </div>
+            <div class="card">
+                <h3>Compraventas</h3>
+                <p>Contratos de propiedad.</p>
+            </div>
+            <div class="card">
+                <h3>Hipotecas</h3>
+                <p>Formalización y gestión.</p>
+            </div>
+            <div class="card">
+                <h3>Bodas y Divorcios</h3>
+                <p>Matrimonios y separaciones notariales.</p>
+            </div>
+            <div class="card">
+                <h3>Sociedades</h3>
+                <p>Constitución y modificación.</p>
+            </div>
+        </div>
+        <a href="/contacto.html" class="btn">Solicita más información</a>
     </section>
 </main>
 <footer>
-    <p>© 2025 Notaría de Cadaqués. Todos los derechos reservados.</p>
+    <div class="footer-container">
+        <div class="footer-logo">
+            <img src="/img/logo.png" alt="Logo Notaría de Cadaqués" class="logo">
+        </div>
+        <div class="footer-menu">
+            <h3>Navegación</h3>
+            <ul>
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="/servicios.html">Lo que hacemos</a></li>
+                <li><a href="/ubicacion.html">Dónde estamos</a></li>
+                <li><a href="/contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+        <div class="footer-horario">
+            <h3>Horario</h3>
+            <p>Lunes a viernes: 9:00 - 14:00 / 16:00 - 19:00</p>
+            <p>(Horario provisional, pendiente de confirmación)</p>
+        </div>
+    </div>
+    <p class="footer-copy">© 2025 Notaría de Cadaqués. Todos los derechos reservados.</p>
 </footer>
 </body>
 </html>
