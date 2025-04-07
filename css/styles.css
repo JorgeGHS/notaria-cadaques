@@ -31,6 +31,12 @@ header {
     max-width: 120px;
 }
 
+.escudo {
+    display: block;
+    margin: 0 auto 2rem; /* Centra la imagen y añade espacio debajo */
+    max-width: 100px; /* Ajusta el tamaño según prefieras */
+}
+
 nav ul {
     list-style: none;
     display: flex;
