@@ -202,6 +202,11 @@ nav a:hover {
     text-align: center;
 }
 
+.services-button {
+    text-align: center;
+    margin-top: 1rem;
+}
+
 .accordion {
     margin-bottom: 2rem;
 }
@@ -285,11 +290,17 @@ nav a:hover {
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer; /* Añade un cursor de puntero para indicar que es clicable */
 }
 
 .card:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card:active {
+    transform: translateY(0); /* Efecto al hacer clic */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .card h3 {
