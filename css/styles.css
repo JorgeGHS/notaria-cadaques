@@ -471,14 +471,39 @@ nav a:hover {
 .location h2 {
     color: #004225;
     font-size: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
-.location-image {
-    width: 100%;
-    max-width: 600px;
-    border-radius: 10px;
+.location-content {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+.location-text {
+    flex: 1;
+    text-align: left;
+}
+
+.location-text p {
     margin-bottom: 1rem;
+    color: #444;
+}
+
+.location-media {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.location-map,
+.location-video {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    border: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 iframe {
@@ -887,13 +912,11 @@ footer {
         font-size: 0.9rem;
     }
 
-    .location,
     .contact {
         margin: 2rem auto;
         padding: 0 0.75rem;
     }
 
-    .location h2,
     .contact h2 {
         font-size: 1.8rem;
         margin-bottom: 1rem;
@@ -941,6 +964,34 @@ footer {
 
     .location p {
         font-size: 0.9rem;
+    }
+
+    .location {
+        margin: 2rem auto;
+        padding: 0 0.75rem;
+    }
+
+    .location h2 {
+        font-size: 1.8rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .location-content {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .location-text {
+        text-align: center;
+    }
+
+    .location-text p {
+        font-size: 0.9rem;
+    }
+
+    .location-map,
+    .location-video {
+        height: 250px;
     }
 
     iframe {
@@ -1231,6 +1282,42 @@ footer {
 
     .location p {
         font-size: 0.9rem;
+    }
+
+    .location {
+        margin: 2rem auto;
+        padding: 0 0.5rem;
+    }
+
+    .location h2 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .location-content {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+    }
+
+    .location-text {
+        text-align: center;
+    }
+
+    .location-text p {
+        font-size: 0.85rem;
+    }
+
+    .location-media {
+        align-items: center; /* Centra los elementos hijos horizontalmente */
+    }
+
+    .location-map,
+    .location-video {
+        width: 100%;
+        max-width: 350px; /* Limita el ancho máximo para que no se extienda demasiado */
+        height: 200px;
+        margin: 0 auto; /* Centra el elemento horizontalmente */
     }
 
     iframe {
