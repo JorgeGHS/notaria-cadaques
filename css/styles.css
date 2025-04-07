@@ -526,6 +526,17 @@ footer {
     font-size: 0.9rem;
 }
 
+.linkedin-logo {
+    width: 32px; /* Tamaño del logo */
+    height: 32px;
+    vertical-align: middle; /* Alinea verticalmente con el texto */
+    transition: opacity 0.3s; /* Efecto de transición al pasar el mouse */
+}
+
+.linkedin-logo:hover {
+    opacity: 0.8; /* Efecto de opacidad al pasar el mouse */
+}
+
 /* Responsive Design */
 
 /* Tablet (768px - 1023px) */
@@ -720,6 +731,11 @@ footer {
 
     .footer-copy {
         font-size: 0.85rem;
+    }
+
+    .linkedin-logo {
+        width: 28px; /* Tamaño ligeramente más pequeño para tablet */
+        height: 28px;
     }
 }
 
@@ -958,5 +974,10 @@ footer {
     .footer-copy {
         font-size: 0.8rem;
         margin-top: 1.5rem;
+    }
+
+    .linkedin-logo {
+        width: 24px; /* Tamaño más pequeño para móvil */
+        height: 24px;
     }
 }
