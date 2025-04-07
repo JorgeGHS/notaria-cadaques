@@ -208,6 +208,98 @@ nav a:hover {
     margin-bottom: 2rem; /* Añade espacio inferior para separar del footer */
 }
 
+/* Popup */
+.popup {
+    display: none; /* Oculto por defecto */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro semitransparente */
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    background-color: #ffe6e6; /* Fondo salmón claro */
+    color: #004225; /* Texto en color #004225 */
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 500px;
+    width: 90%;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.popup-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.popup-content p {
+    margin-bottom: 1.5rem;
+}
+
+.close-popup {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #004225;
+}
+
+.close-popup:hover {
+    color: #002b18;
+}
+
+/* Estilos del formulario dentro del popup */
+.popup-content .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.popup-content .form-group label {
+    font-weight: 700;
+    color: #004225;
+}
+
+.popup-content .form-group input {
+    padding: 0.8rem;
+    border: 1px solid #004225;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: white;
+    transition: border-color 0.3s;
+}
+
+.popup-content .form-group input:focus {
+    border-color: #002b18;
+    outline: none;
+}
+
+.popup-content .btn {
+    background-color: #004225;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    width: 100%;
+    text-align: center;
+}
+
+.popup-content .btn:hover {
+    background-color: #002b18;
+    transform: scale(1.05);
+}
+
 .accordion {
     margin-bottom: 2rem;
 }
@@ -307,6 +399,65 @@ nav a:hover {
 .card h3 {
     color: #004225;
     margin-bottom: 0.5rem;
+}
+
+/* Quiénes Somos */
+.about {
+    max-width: 1200px;
+    margin: 3rem auto;
+    padding: 0 1rem;
+}
+
+.about h2 {
+    color: #004225;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.about-section {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-text h3 {
+    color: #004225;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.about-text p {
+    margin-bottom: 1rem;
+    color: #444;
+}
+
+.about-text ul {
+    list-style-type: disc;
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+    color: #444;
+}
+
+.about-text ul li {
+    margin-bottom: 0.5rem;
+}
+
+.about-image {
+    flex: 1;
+    text-align: center;
+}
+
+.about-image img {
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 /* Ubicación */
@@ -603,6 +754,29 @@ footer {
         font-size: 0.9rem;
     }
 
+    .popup-content {
+        padding: 1.5rem;
+        max-width: 450px;
+    }
+
+    .popup-content h2 {
+        font-size: 1.3rem;
+    }
+
+    .popup-content p {
+        font-size: 0.9rem;
+    }
+
+    .popup-content .form-group input {
+        padding: 0.6rem;
+        font-size: 0.9rem;
+    }
+
+    .popup-content .btn {
+        padding: 0.6rem 1rem;
+        font-size: 0.9rem;
+    }
+
     .card {
         padding: 1rem;
     }
@@ -613,6 +787,35 @@ footer {
 
     .card p {
         font-size: 0.9rem;
+    }
+
+    .about {
+        margin: 2rem auto;
+        padding: 0 0.75rem;
+    }
+
+    .about h2 {
+        font-size: 1.8rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .about-section {
+        flex-direction: column;
+        gap: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .about-text h3 {
+        font-size: 1.3rem;
+    }
+
+    .about-text p,
+    .about-text ul li {
+        font-size: 0.9rem;
+    }
+
+    .about-image img {
+        max-width: 80%;
     }
 
     .accordion-header {
@@ -784,7 +987,7 @@ footer {
     }
 
     .hero-image {
-        height: 420px;
+        height: 470px;
     }
 
     .hero h1 {
@@ -836,6 +1039,35 @@ footer {
         font-size: 0.9rem;
     }
 
+    .popup-content {
+        padding: 1rem;
+        max-width: 90%;
+    }
+
+    .popup-content h2 {
+        font-size: 1.2rem;
+    }
+
+    .popup-content p {
+        font-size: 0.85rem;
+    }
+
+    .popup-content .form-group input {
+        padding: 0.6rem;
+        font-size: 0.85rem;
+    }
+
+    .popup-content .btn {
+        padding: 0.6rem 1rem;
+        font-size: 0.85rem;
+    }
+
+    .close-popup {
+        font-size: 1.2rem;
+        top: 0.5rem;
+        right: 0.5rem;
+    }
+
     .card {
         padding: 1rem;
     }
@@ -846,6 +1078,35 @@ footer {
 
     .card p {
         font-size: 0.85rem;
+    }
+
+    .about {
+        margin: 2rem auto;
+        padding: 0 0.5rem;
+    }
+
+    .about h2 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .about-section {
+        flex-direction: column;
+        gap: 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .about-text h3 {
+        font-size: 1.2rem;
+    }
+
+    .about-text p,
+    .about-text ul li {
+        font-size: 0.85rem;
+    }
+
+    .about-image img {
+        max-width: 80%;
     }
 
     .accordion-header {
