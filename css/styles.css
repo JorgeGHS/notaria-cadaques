@@ -203,8 +203,9 @@ nav a:hover {
 }
 
 .services-button {
-    text-align: center;
-    margin-top: 1rem;
+    text-align: center; /* Centra el contenido horizontalmente */
+    margin-top: 2rem; /* Añade espacio superior para separar del grid */
+    margin-bottom: 2rem; /* Añade espacio inferior para separar del footer */
 }
 
 .accordion {
@@ -263,8 +264,8 @@ nav a:hover {
 }
 
 .accordion-content.active {
-    max-height: 500px;
     padding: 1.5rem;
+    padding-bottom: 2rem; /* Añade más espacio debajo del contenido */
 }
 
 .accordion-content p {
@@ -580,6 +581,17 @@ footer {
         gap: 1.5rem;
     }
 
+    .services-button {
+        text-align: center; /* Asegura que el botón esté centrado */
+        margin-top: 1.5rem; /* Ajusta el espaciado para tablet */
+        margin-bottom: 1.5rem;
+    }
+
+    .services-button .btn {
+        padding: 0.6rem 1rem; /* Ajusta el tamaño del botón para tablet */
+        font-size: 0.9rem;
+    }
+
     .card {
         padding: 1rem;
     }
@@ -599,6 +611,7 @@ footer {
 
     .accordion-content.active {
         padding: 1rem;
+        padding-bottom: 1.5rem;
     }
 
     .accordion-content p {
@@ -796,6 +809,17 @@ footer {
         gap: 1rem;
     }
 
+    .services-button {
+        text-align: center; /* Asegura que el botón esté centrado */
+        margin-top: 1rem; /* Ajusta el espaciado para móvil */
+        margin-bottom: 1rem;
+    }
+
+    .services-button .btn {
+        padding: 0.6rem 1rem; /* Ajusta el tamaño del botón para móvil */
+        font-size: 0.9rem;
+    }
+
     .card {
         padding: 1rem;
     }
@@ -820,6 +844,7 @@ footer {
 
     .accordion-content.active {
         padding: 1rem;
+        padding-bottom: 1.5rem;
     }
 
     .accordion-content p {
