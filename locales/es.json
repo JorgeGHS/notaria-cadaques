@@ -29,52 +29,81 @@
     "photo_credit": "Empordà Turisme"
   },
   "services": {
+    "page_title": "Qué hacemos - Notaría de Cadaqués",
     "title": "Nuestros servicios",
+    "subtitle": "(\"En román paladino\")",
     "herencias": {
       "title": "Herencias",
-      "description": "Gestión integral de sucesiones."
+      "description": "Gestión integral de sucesiones.",
+      "description_1": "Cuando una persona fallece, hay que consultar en el Registro de Últimas Voluntades si ha hecho o no testamento. Si no ha hecho, es necesario hacer en la Notaría una declaración de herederos, que sirve para acreditar quienes son los herederos de una persona y cómo debe repartirse la herencia.",
+      "description_2": "Con la declaración de herederos o con el testamento, todos los herederos, de común acuerdo, tienen que hacer una escritura de reparto de la herencia.",
+      "description_3": "Nosotros podemos encargarnos de solicitar el Certificado de Últimas Voluntades y otra documentación necesaria."
     },
     "testamentos": {
       "title": "Testamentos",
-      "description": "Redacción y asesoramiento."
+      "description": "Redacción y asesoramiento.",
+      "description_1": "Si quiere otorgar testamento, venga con su D.N.I. y le informaremos de las limitaciones que puede tener, le aclararemos las dudas que puedan surgir y, si es posible, se lo haremos en el mismo momento y, al acabar, le entregaremos su copia, para que no tenga que volver a desplazarse. A continuación, nosotros nos encargamos de notificárselo al Registro de Últimas Voluntades, para que conste allí su testamento. Y todo por menos de 50 euros.",
+      "description_2": "Recuerde que, si tiene vecindad gallega, debe hacerlo con arreglo a la legislación de Galicia. Nosotros le informaremos."
     },
     "compraventas": {
       "title": "Compraventas",
-      "description": "Contratos de propiedad."
+      "description": "Contratos de propiedad.",
+      "description_1": "Si quiere vender su casa, debe traernos la escritura en la que la adquirió y los cuatro últimos recibos del I.B.I. Además, debe encargar que le elaboren un certificado de eficiencia energética. Si está en una división horizontal, debe pedir al administrador un certificado de estar al corriente con la Comunidad de Propietarios. Nosotros consultaremos al Registro de la Propiedad si hay o no cargas registradas, para asegurar al comprador que adquiere libre de cargas.",
+      "description_2": "Tanto si va a vender como si va a comprar, venga y le informaremos de todo."
     },
     "hipotecas": {
       "title": "Hipotecas",
-      "description": "Formalización y gestión."
+      "description": "Formalización y gestión.",
+      "description_1": "Si va a solicitar un préstamo hipotecario con un banco, éste tiene la obligación de informarle que usted tiene el derecho de elegir el Notario que va a firmar la escritura. Elíjanos y, antes de firmar la escritura, le informaremos gratuitamente de todos los detalles de su préstamo, pudiendo realizar al Notario las preguntas y consultar todas las dudas que crea conveniente. Todo muy claro."
     },
     "cancelacion_de_hipotecas": {
       "title": "Cancelación de Hipotecas",
-      "description": "Formalización y gestión."
+      "description": "Formalización y gestión.",
+      "description_1": "Cuando termine de pagar un préstamo hipotecario, es necesario que le pida a su banco que venga al Notario para otorgar la escritura de cancelación de la hipoteca, que después hay que presentar en el Registro de la Propiedad, para que su finca conste como libre de esa carga.",
+      "description_2": "Recuerde solicitarle al Banco que venga a firmar esa escritura de cancelación. Coste de la escritura: menos de 100 euros."
     },
     "bodas_y_divorcios": {
       "title": "Bodas y Divorcios",
       "description": "Matrimonios y separaciones notariales."
     },
+    "bodas": {
+      "title": "Bodas",
+      "description_1": "Si queréis celebrar la boda con nosotros, elegid fecha y hora, dentro del horario de la Notaría, y lo haremos con la mayor celeridad. Disponemos de una sala de reuniones con capacidad para 24 personas sentadas que, si queréis, podéis adornar a vuestro gusto. Previamente hay que hacer un acta matrimonial, que se puede hacer en la Notaría, pero sólo en aquella que, teniendo competencia en el domicilio de alguno de los contrayentes, designe el Colegio Notarial. Después, la boda se celebra en la Notaría que elijáis vosotros. Venid y os informaremos con todo detalle del procedimiento."
+    },
+    "divorcios": {
+      "title": "Divorcios",
+      "description_1": "Si los dos estáis de acuerdo y no tenéis hijos menores, os podéis divorciar ante Notario. Necesitaréis venir con un abogado que os acompañe y asesore (o cada uno con su abogado)."
+    },
     "poderes": {
       "title": "Poderes",
-      "description": "Redacción y asesoramiento."
+      "description": "Redacción y asesoramiento.",
+      "description_1": "Si necesita otorgar un poder, tanto si es general, como especial para algo concreto, o un poder para abogados, venga con los datos de los apoderados y se lo haremos y le entregaremos la copia al momento."
     },
     "sociedades": {
       "title": "Sociedades",
-      "description": "Constitución y modificación."
+      "description": "Constitución y modificación.",
+      "description_1": "Si va a constituir una sociedad, podemos encargarnos de solicitar al Registro Mercantil el nombre que usted elija; cuando firme la escritura, le daremos el NIF provisional y, una vez firmada, si nos lo encarga, tramitaremos la liquidación del Impuesto y la inscripción en el Registro Mercantil.",
+      "description_2": "Para cualquier otra operación (cambio de nombre, domicilio u objeto social, ampliación de capital, disolución,…), le asesoraremos en la redacción de las certificaciones de acuerdos necesarias."
     },
     "gestion_de_escrituras": {
       "title": "Gestión de escrituras",
-      "description": "Formalización y gestión."
+      "description": "Formalización y gestión.",
+      "description_1": "En algunas operaciones, hay que liquidar los impuestos y presentar la escritura en el Registro de la Propiedad o en el Registro Mercantil. Si usted nos lo solicita, nosotros podemos hacer esas gestiones. Pero tenga la seguridad que sólo las haremos si usted nos lo encarga expresamente y después de haberle informado muy claramente del coste de nuestra gestión (entre 50 y 200 euros, dependiendo del tipo de gestión)."
     },
     "legitimaciones_y_compulsas": {
       "title": "Legitimaciones y Compulsas",
-      "description": "Formalización y gestión."
+      "description": "Formalización y gestión.",
+      "description_1": "Si necesitas legitimar la firma en un documento, te lo haremos, si es posible, en el momento y, si no, en 30 minutos. Recuerda venir con el documento sin firmar, para firmarlo delante del Notario.",
+      "description_2": "Y si lo que necesitas es compulsar una fotocopia, también te lo intentaremos hacer en el momento (y te hacemos nosotros la fotocopia)."
     },
     "videoconferencias": {
       "title": "Videoconferencias",
-      "description": "Autorización online de actuaciones notariales."
+      "description": "Autorización online de actuaciones notariales.",
+      "description_1": "Por primera vez en la historia los notarios podrán prestar servicios online si así lo quieren ciudadanos o empresas.",
+      "description_2": "La autorización y firma de estos documentos se llevará a cabo en la sede electrónica notarial mediante el uso de videoconferencia y firma electrónica cualificada.",
+      "description_3": "Se podrán autorizar de esta forma todos los actos societarios, las pólizas mercantiles, diversos tipos de poderes notariales, las cartas de pago, cancelaciones de garantías, los testimonios de legitimación de firmas, etc."
     },
-    "button": "Solicita más información"
+    "button": "Solicitar más información"
   },
   "faq": {
     "title": "Preguntas frecuentes",

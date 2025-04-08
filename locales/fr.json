@@ -29,50 +29,79 @@
     "photo_credit": "Empordà Turisme"
   },
   "services": {
+    "page_title": "Ce que nous faisons - Notaire de Cadaqués",
     "title": "Nos services",
+    "subtitle": "(\"En román paladino\")",
     "herencias": {
       "title": "Héritages",
-      "description": "Gestion intégrale des successions."
+      "description": "Gestion intégrale des successions.",
+      "description_1": "Lorsqu'une personne décède, il faut vérifier au Registre des Dernières Volontés si elle a fait ou non un testament. Si elle n'en a pas fait, il est nécessaire de réaliser chez le notaire une déclaration d'héritiers, qui sert à établir qui sont les héritiers d'une personne et comment l'héritage doit être réparti.",
+      "description_2": "Avec la déclaration d'héritiers ou le testament, tous les héritiers, d'un commun accord, doivent établir un acte de partage de l'héritage.",
+      "description_3": "Nous pouvons nous charger de demander le Certificat des Dernières Volontés et d'autres documents nécessaires."
     },
     "testamentos": {
       "title": "Testaments",
-      "description": "Rédaction et conseil."
+      "description": "Rédaction et conseil.",
+      "description_1": "Si vous souhaitez établir un testament, venez avec votre carte d'identité et nous vous informerons des éventuelles limitations, nous clarifierons vos doutes et, si possible, nous le rédigerons sur le moment et vous remettrons une copie à la fin, pour que vous n'ayez pas à vous déplacer à nouveau. Ensuite, nous nous chargeons de le notifier au Registre des Dernières Volontés, afin que votre testament y soit enregistré. Et tout cela pour moins de 50 euros.",
+      "description_2": "N'oubliez pas que, si vous êtes résident galicien, vous devez le faire conformément à la législation de Galice. Nous vous informerons."
     },
     "compraventas": {
       "title": "Achats et ventes",
-      "description": "Contrats de propriété."
+      "description": "Contrats de propriété.",
+      "description_1": "Si vous souhaitez vendre votre maison, vous devez nous apporter l'acte d'acquisition et les quatre derniers reçus de la taxe foncière (I.B.I.). De plus, vous devez faire établir un certificat de performance énergétique. Si la propriété fait partie d'un régime de copropriété, vous devez demander à l'administrateur un certificat attestant que vous êtes à jour avec la communauté des propriétaires. Nous consulterons le Registre de la Propriété pour vérifier s'il existe ou non des charges enregistrées, afin d'assurer à l'acheteur qu'il acquiert un bien libre de charges.",
+      "description_2": "Que vous souhaitiez vendre ou acheter, venez nous voir et nous vous informerons de tout."
     },
     "hipotecas": {
       "title": "Hypothèques",
-      "description": "Formalisation et gestion."
+      "description": "Formalisation et gestion.",
+      "description_1": "Si vous allez demander un prêt hypothécaire auprès d'une banque, celle-ci a l'obligation de vous informer que vous avez le droit de choisir le notaire qui signera l'acte. Choisissez-nous et, avant de signer l'acte, nous vous informerons gratuitement de tous les détails de votre prêt, vous permettant de poser au notaire toutes les questions et de clarifier tous les doutes que vous jugez nécessaires. Tout sera très clair."
     },
     "cancelacion_de_hipotecas": {
       "title": "Annulation d'hypothèques",
-      "description": "Formalisation et gestion."
+      "description": "Formalisation et gestion.",
+      "description_1": "Lorsque vous aurez fini de rembourser un prêt hypothécaire, il sera nécessaire de demander à votre banque de venir chez le notaire pour signer l'acte d'annulation de l'hypothèque, qui devra ensuite être présenté au Registre de la Propriété afin que votre bien soit enregistré comme libre de cette charge.",
+      "description_2": "N'oubliez pas de demander à la banque de venir signer cet acte d'annulation. Coût de l'acte : moins de 100 euros."
     },
     "bodas_y_divorcios": {
       "title": "Mariages et divorces",
       "description": "Mariages et séparations notariales."
     },
+    "bodas": {
+      "title": "Mariages",
+      "description_1": "Si vous souhaitez célébrer votre mariage avec nous, choisissez une date et une heure dans les horaires du notaire, et nous le ferons avec la plus grande rapidité. Nous disposons d'une salle de réunion pouvant accueillir 24 personnes assises, que vous pouvez décorer à votre goût si vous le souhaitez. Préalablement, il faut établir un acte de mariage, qui peut être fait chez un notaire, mais uniquement chez celui désigné par le Collège Notarial, compétent pour le domicile de l'un des futurs époux. Ensuite, le mariage est célébré chez le notaire de votre choix. Venez et nous vous informerons en détail de la procédure."
+    },
+    "divorcios": {
+      "title": "Divorces",
+      "description_1": "Si vous êtes tous les deux d'accord et que vous n'avez pas d'enfants mineurs, vous pouvez divorcer devant un notaire. Vous devrez venir avec un avocat qui vous accompagnera et vous conseillera (ou chacun avec son propre avocat)."
+    },
     "poderes": {
       "title": "Procurations",
-      "description": "Rédaction et conseil."
+      "description": "Rédaction et conseil.",
+      "description_1": "Si vous avez besoin d'établir une procuration, qu'elle soit générale, spécifique pour une affaire particulière, ou une procuration pour des avocats, venez avec les informations des mandataires et nous la rédigerons et vous remettrons une copie immédiatement."
     },
     "sociedades": {
       "title": "Sociétés",
-      "description": "Constitution et modification."
+      "description": "Constitution et modification.",
+      "description_1": "Si vous allez créer une société, nous pouvons nous charger de demander au Registre du Commerce le nom de votre choix ; lorsque vous signerez l'acte, nous vous fournirons le NIF provisoire et, une fois signé, si vous nous le confiez, nous gérerons le règlement de l'impôt et l'inscription au Registre du Commerce.",
+      "description_2": "Pour toute autre opération (changement de nom, de siège social ou d'objet social, augmentation de capital, dissolution, …), nous vous conseillerons dans la rédaction des certifications d'accords nécessaires."
     },
     "gestion_de_escrituras": {
       "title": "Gestion des actes",
-      "description": "Formalisation et gestion."
+      "description": "Formalisation et gestion.",
+      "description_1": "Dans certaines opérations, il faut régler les impôts et présenter l'acte au Registre de la Propriété ou au Registre du Commerce. Si vous nous le demandez, nous pouvons effectuer ces démarches. Mais soyez assuré que nous ne les ferons que si vous nous le confiez expressément et après vous avoir informé très clairement du coût de notre gestion (entre 50 et 200 euros, selon le type de gestion)."
     },
     "legitimaciones_y_compulsas": {
       "title": "Légalisations et copies certifiées",
-      "description": "Formalisation et gestion."
+      "description": "Formalisation et gestion.",
+      "description_1": "Si vous avez besoin de légaliser une signature sur un document, nous le ferons, si possible, immédiatement, sinon dans les 30 minutes. Pensez à venir avec le document non signé, pour le signer devant le notaire.",
+      "description_2": "Et si vous avez besoin de certifier une photocopie, nous essaierons également de le faire immédiatement (et nous ferons la photocopie pour vous)."
     },
     "videoconferencias": {
       "title": "Vidéoconférences",
-      "description": "Autorisation en ligne des actes notariés."
+      "description": "Autorisation en ligne des actes notariés.",
+      "description_1": "Pour la première fois dans l'histoire, les notaires pourront fournir des services en ligne si les citoyens ou les entreprises le souhaitent.",
+      "description_2": "L'autorisation et la signature de ces documents se feront via le siège électronique notarial, en utilisant la vidéoconférence et la signature électronique qualifiée.",
+      "description_3": "De cette manière, il sera possible d'autoriser tous les actes sociétaires, les polices commerciales, divers types de procurations notariales, les lettres de paiement, les annulations de garanties, les témoignages de légalisation de signatures, etc."
     },
     "button": "Demander plus d'informations"
   },
@@ -117,13 +146,13 @@
     }
   },
   "popup": {
-    "title": "Choisir un notaire pour une hypothèque",
-    "description": "Si vous allez contracter un prêt hypothécaire auprès d'une banque, vous avez le droit de choisir un notaire. Si vous souhaitez que nous vous conseillions gratuitement et que nous vous expliquions clairement les détails de la transaction, remplissez vos coordonnées ci-dessous:",
+    "title": "Choisissez un notaire pour votre hypothèque",
+    "description": "Si vous allez souscrire un prêt hypothécaire auprès d'une banque, vous avez le droit de choisir votre notaire. Si vous souhaitez que nous vous conseillions gratuitement et que nous vous expliquions les détails de l'opération avec toute la clarté nécessaire, remplissez vos informations ci-dessous :",
     "form": {
-      "nombre": "Prenom *",
-      "apellidos": "Nom *",
-      "dni": "ID *",
-      "telefono": "DNI/NIE *",
+      "nombre": "Nom *",
+      "apellidos": "Prénom *",
+      "dni": "DNI/NIE *",
+      "telefono": "Téléphone *",
       "email": "Email *",
       "banco": "Banque",
       "submit": "Envoyer"

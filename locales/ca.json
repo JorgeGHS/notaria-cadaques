@@ -29,52 +29,81 @@
     "photo_credit": "Empordà Turisme"
   },
   "services": {
+    "page_title": "El que fem - Notaria de Cadaqués",
     "title": "Els nostres serveis",
+    "subtitle": "(\"En román paladino\")",
     "herencias": {
       "title": "Herències",
-      "description": "Gestió integral de successions."
+      "description": "Gestió integral de successions.",
+      "description_1": "Quan una persona mor, cal consultar al Registre d'Últimes Voluntats si ha fet o no testament. Si no n'ha fet, cal fer a la Notaria una declaració d'hereus, que serveix per acreditar qui són els hereus d'una persona i com s'ha de repartir l'herència.",
+      "description_2": "Amb la declaració d'hereus o amb el testament, tots els hereus, de comú acord, han de fer una escriptura de repartiment de l'herència.",
+      "description_3": "Nosaltres ens podem encarregar de sol·licitar el Certificat d'Últimes Voluntats i altra documentació necessària."
     },
     "testamentos": {
       "title": "Testaments",
-      "description": "Redacció i assessorament."
+      "description": "Redacció i assessorament.",
+      "description_1": "Si voleu otorgar testament, veniu amb el vostre D.N.I. i us informarem de les limitacions que podeu tenir, us aclarirem els dubtes que puguin sorgir i, si és possible, us ho farem en el mateix moment i, en acabar, us entregarem la vostra còpia, perquè no hagueu de tornar a desplaçar-vos. A continuació, nosaltres ens encarreguem de notificar-ho al Registre d'Últimes Voluntats, perquè consti allà el vostre testament. I tot per menys de 50 euros.",
+      "description_2": "Recordeu que, si teniu veïnatge gallec, ho heu de fer d'acord amb la legislació de Galícia. Nosaltres us informarem."
     },
     "compraventas": {
       "title": "Compravendes",
-      "description": "Contractes de propietat."
+      "description": "Contractes de propietat.",
+      "description_1": "Si voleu vendre la vostra casa, ens heu de portar l'escriptura en què la vau adquirir i els quatre últims rebuts de l'I.B.I. A més, heu d'encarregar que us elaborin un certificat d'eficiència energètica. Si està en una divisió horitzontal, heu de demanar a l'administrador un certificat d'estar al corrent amb la Comunitat de Propietaris. Nosaltres consultarem al Registre de la Propietat si hi ha o no càrregues registrades, per assegurar al comprador que adquireix lliure de càrregues.",
+      "description_2": "Tant si aneu a vendre com si aneu a comprar, veniu i us informarem de tot."
     },
     "hipotecas": {
       "title": "Hipoteques",
-      "description": "Formalització i gestió."
+      "description": "Formalització i gestió.",
+      "description_1": "Si sol·licitareu un préstec hipotecari amb un banc, aquest té l'obligació d'informar-vos que teniu el dret d'escollir el Notari que firmarà l'escriptura. Trieu-nos i, abans de signar l'escriptura, us informarem gratuïtament de tots els detalls del vostre préstec, podent fer al Notari les preguntes i consultar tots els dubtes que creieu convenient. Tot molt clar."
     },
     "cancelacion_de_hipotecas": {
       "title": "Cancel·lació d'Hipoteques",
-      "description": "Formalització i gestió."
+      "description": "Formalització i gestió.",
+      "description_1": "Quan acabeu de pagar un préstec hipotecari, cal que demaneu al vostre banc que vingui al Notari per otorgar l'escriptura de cancel·lació de la hipoteca, que després s'ha de presentar al Registre de la Propietat, perquè la vostra finca consti com a lliure d'aquesta càrrega.",
+      "description_2": "Recordeu demanar al Banc que vingui a signar aquesta escriptura de cancel·lació. Cost de l'escriptura: menys de 100 euros."
     },
     "bodas_y_divorcios": {
       "title": "Casaments i Divorcis",
       "description": "Matrimonis i separacions notarials."
     },
+    "bodas": {
+      "title": "Casaments",
+      "description_1": "Si voleu celebrar el casament amb nosaltres, trieu data i hora, dins de l'horari de la Notaria, i ho farem amb la màxima celeritat. Disposem d'una sala de reunions amb capacitat per a 24 persones assegudes que, si voleu, podeu adornar al vostre gust. Prèviament cal fer una acta matrimonial, que es pot fer a la Notaria, però només en aquella que, tenint competència en el domicili d'algun dels contraents, designi el Col·legi Notarial. Després, el casament se celebra a la Notaria que trieu vosaltres. Veniu i us informarem amb tot detall del procediment."
+    },
+    "divorcios": {
+      "title": "Divorcis",
+      "description_1": "Si tots dos esteu d'acord i no teniu fills menors, us podeu divorciar davant de Notari. Necessitareu venir amb un advocat que us acompanyi i assessori (o cadascun amb el seu advocat)."
+    },
     "poderes": {
       "title": "Poders",
-      "description": "Redacció i assessorament."
+      "description": "Redacció i assessorament.",
+      "description_1": "Si necessiteu otorgar un poder, tant si és general, com especial per a alguna cosa concreta, o un poder per a advocats, veniu amb les dades dels apoderats i us ho farem i us entregarem la còpia al moment."
     },
     "sociedades": {
       "title": "Societats",
-      "description": "Constitució i modificació."
+      "description": "Constitució i modificació.",
+      "description_1": "Si aneu a constituir una societat, ens podem encarregar de sol·licitar al Registre Mercantil el nom que trieu; quan signeu l'escriptura, us donarem el NIF provisional i, un cop signada, si ens ho encarregueu, tramitarem la liquidació de l'Impost i la inscripció al Registre Mercantil.",
+      "description_2": "Per a qualsevol altra operació (canvi de nom, domicili o objecte social, ampliació de capital, dissolució,…), us assessorarem en la redacció de les certificacions d'acords necessàries."
     },
     "gestion_de_escrituras": {
       "title": "Gestió d'escriptures",
-      "description": "Formalització i gestió."
+      "description": "Formalització i gestió.",
+      "description_1": "En algunes operacions, cal liquidar els impostos i presentar l'escriptura al Registre de la Propietat o al Registre Mercantil. Si vosaltres ens ho sol·liciteu, nosaltres podem fer aquestes gestions. Però tingueu la seguretat que només les farem si ens ho encarregueu expressament i després d'haver-vos informat molt clarament del cost de la nostra gestió (entre 50 i 200 euros, depenent del tipus de gestió)."
     },
     "legitimaciones_y_compulsas": {
       "title": "Legitimacions i Compulses",
-      "description": "Formalització i gestió."
+      "description": "Formalització i gestió.",
+      "description_1": "Si necessiteu legitimar la signatura en un document, us ho farem, si és possible, al moment i, si no, en 30 minuts. Recordeu venir amb el document sense signar, per signar-lo davant del Notari.",
+      "description_2": "I si el que necessiteu és compulsar una fotocòpia, també us ho intentarem fer al moment (i us fem nosaltres la fotocòpia)."
     },
     "videoconferencias": {
       "title": "Videoconferències",
-      "description": "Autorització en línia d'actuacions notarials."
+      "description": "Autorització en línia d'actuacions notarials.",
+      "description_1": "Per primera vegada en la història, els notaris podran prestar serveis en línia si així ho volen els ciutadans o les empreses.",
+      "description_2": "L'autorització i signatura d'aquests documents es durà a terme a la seu electrònica notarial mitjançant l'ús de videoconferència i signatura electrònica qualificada.",
+      "description_3": "Es podran autoritzar d'aquesta manera tots els actes societaris, les pòlisses mercantils, diversos tipus de poders notarials, les cartes de pagament, cancel·lacions de garanties, els testimonis de legitimació de signatures, etc."
     },
-    "button": "Sol·licita més informació"
+    "button": "Sol·licitar més informació"
   },
   "faq": {
     "title": "Preguntes freqüents",
