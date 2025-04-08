@@ -1,0 +1,132 @@
+{
+  "header": {
+    "nav": {
+      "home": "Accueil",
+      "services": "Ce que nous faisons",
+      "about": "Qui sommes-nous",
+      "location": "Où nous sommes",
+      "news": "Actualités",
+      "contact": "Contact"
+    }
+  },
+  "footer": {
+    "navigation": "Navigation",
+    "schedule": "Horaires",
+    "schedule_time": "Lundi au vendredi : 9h30 - 13h30",
+    "contact": "Contact",
+    "email_label": "Email :",
+    "email": "notariadecadaques@gmail.com",
+    "phone_label": "Téléphone :",
+    "phone": "972 259 066",
+    "address": "Adresse",
+    "address_value": "Carrer del Teatre, 4, Étage 1, 17488 Cadaqués (Girona)",
+    "copyright": "© 2025 Notaire de Cadaqués. Tous droits réservés."
+  },
+  "hero": {
+    "title": "Notaire de Cadaqués",
+    "subtitle": "Pedro García de los Huertos Sánchez",
+    "button": "Choisissez un notaire pour votre hypothèque",
+    "photo_credit": "Empordà Turisme"
+  },
+  "services": {
+    "title": "Nos services",
+    "herencias": {
+      "title": "Héritages",
+      "description": "Gestion intégrale des successions."
+    },
+    "testamentos": {
+      "title": "Testaments",
+      "description": "Rédaction et conseil."
+    },
+    "compraventas": {
+      "title": "Achats et ventes",
+      "description": "Contrats de propriété."
+    },
+    "hipotecas": {
+      "title": "Hypothèques",
+      "description": "Formalisation et gestion."
+    },
+    "cancelacion_de_hipotecas": {
+      "title": "Annulation d'hypothèques",
+      "description": "Formalisation et gestion."
+    },
+    "bodas_y_divorcios": {
+      "title": "Mariages et divorces",
+      "description": "Mariages et séparations notariales."
+    },
+    "poderes": {
+      "title": "Procurations",
+      "description": "Rédaction et conseil."
+    },
+    "sociedades": {
+      "title": "Sociétés",
+      "description": "Constitution et modification."
+    },
+    "gestion_de_escrituras": {
+      "title": "Gestion des actes",
+      "description": "Formalisation et gestion."
+    },
+    "legitimaciones_y_compulsas": {
+      "title": "Légalisations et copies certifiées",
+      "description": "Formalisation et gestion."
+    },
+    "videoconferencias": {
+      "title": "Vidéoconférences",
+      "description": "Autorisation en ligne des actes notariés."
+    },
+    "button": "Demander plus d'informations"
+  },
+  "faq": {
+    "title": "Questions fréquentes",
+    "notario": {
+      "title": "Qu'est-ce qu'un notaire ?",
+      "description_1": "Comme le précise le Règlement du Notariat, « les notaires sont à la fois des fonctionnaires publics et des professionnels du droit.",
+      "description_2": "En tant que <i>fonctionnaires</i>, ils exercent la foi publique notariale, qui a un double contenu et offre une double protection :",
+      "description_3": "     <i>a)</i> Dans le domaine des faits, l'exactitude de ce que le notaire voit, entend ou perçoit par ses sens.",
+      "description_4": "     <i>b)</i> Et dans le domaine du droit, l'authenticité et la force probante des déclarations de volonté des parties dans l'acte public rédigé conformément aux lois.",
+      "description_5": "En tant que <i>professionnels du droit</i>, ils ont pour mission de conseiller ceux qui font appel à leurs services et de leur recommander les moyens juridiques les plus appropriés pour atteindre les objectifs licites qu'ils se proposent d'atteindre.",
+      "description_6": "Le notariat bénéficie d'une pleine autonomie et indépendance dans l'exercice de ses fonctions."
+    },
+    "funcion": {
+      "title": "Quelle est la fonction du notaire ?",
+      "description": "Le notariat est pleinement et entièrement chargé de l'exercice de la foi publique dans toutes les relations de droit privé qui cherchent à être établies ou déclarées sans litige judiciaire."
+    },
+    "libre_eleccion": {
+      "title": "Ai-je le droit de choisir librement mon notaire ?",
+      "description": "Oui, car les particuliers ont le droit de choisir librement leur notaire sans autres limitations que celles prévues par l'ordre juridique, comme le stipule l'article 2 du Règlement du Notariat."
+    },
+    "imparcialidad": {
+      "title": "Le notaire est-il impartial dans son action ?",
+      "description_1": "<i>Le notaire, sans préjudice de son impartialité :</i>",
+      "description_2": "- <i>Apportera une assistance particulière à la partie la plus nécessiteuse.</i>",
+      "description_3": "- Insistera pour informer chacune des parties des clauses proposées par l'autre partie.",
+      "description_4": "- Vérifiera qu'elles ne contiennent pas de conditions générales déclarées nulles par un jugement définitif et inscrit au Registre des Conditions Générales.",
+      "description_5": "Il conseillera également les parties avec impartialité et veillera au respect des droits fondamentaux des consommateurs et des utilisateurs."
+    },
+    "costo": {
+      "title": "Combien coûte un notaire ?",
+      "description_1": "<i>Tous les notaires en Espagne facturent le même tarif pour un service identique.</i> La concurrence entre eux repose sur la qualité, ce qui garantit l'accès de tous les citoyens, dans les mêmes conditions, aux services de sécurité juridique préventive fournis par les notaires.",
+      "description_2": "Les notaires appliquent un tarif fixe établi par le gouvernement en 1989, qui n'a pas été révisé depuis. Ce tarif est le moyen de rémunérer la fonction notariale et le système qui finance la sécurité juridique préventive offerte par les notaires.",
+      "description_3": "Les honoraires notariaux ne représentent qu'une petite partie de ce qui est payé chez le notaire. La majeure partie de la facture est une provision pour couvrir les impôts, les honoraires d'autres professionnels et autres frais générés, que le notaire réglera au nom du client.",
+      "description_4": "De plus, la facture couvre intégralement le service notarial : bureau, salaire de l'équipe professionnelle, assurance responsabilité civile, informatisation, reliure et conservation des actes, entretien des collèges notariaux… seule une partie correspond aux honoraires du notaire.",
+      "description_5": "Les tarifs des notaires ont été établis par le décret royal 1426/89 du 17 novembre, publié le 28 novembre au BOE. Les tarifs espagnols sont, après ceux du Portugal, les plus bas d'Europe.",
+      "description_6": "Chez le notaire, les utilisateurs assistent souvent uniquement à la signature de l'accord ou du contrat, mais cela est le résultat final d'un travail long, complexe, minutieux et délicat. Il est prouvé que le coût du tarif notarial est bien inférieur aux coûts et dommages sociaux et économiques évités par l'intervention du notaire.",
+      "reduccion_title": "Réduction de tarif à caractère social",
+      "reduccion_description": "Entre autres, les actes de vente et les prêts hypothécaires pour les logements à protection officielle (VPO) bénéficient de réductions de tarif à caractère social.",
+      "source": "Source : Conseil Général du Notariat"
+    }
+  },
+  "popup": {
+    "title": "Choisir un notaire pour une hypothèque",
+    "description": "Si vous allez contracter un prêt hypothécaire auprès d'une banque, vous avez le droit de choisir un notaire. Si vous souhaitez que nous vous conseillions gratuitement et que nous vous expliquions clairement les détails de la transaction, remplissez vos coordonnées ci-dessous:",
+    "form": {
+      "nombre": "Prenom *",
+      "apellidos": "Nom *",
+      "dni": "ID *",
+      "telefono": "DNI/NIE *",
+      "email": "Email *",
+      "banco": "Banque",
+      "submit": "Envoyer"
+    }
+  }
+}

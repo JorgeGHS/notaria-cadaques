@@ -755,7 +755,8 @@ footer {
 }
 
 .feed-container {
-    min-height: 400px;
+    height: 600px; /* Altura fija para que coincida con data-height */
+    overflow-y: auto; /* Añade desplazamiento vertical si el contenido excede la altura */
     background-color: #f9f9f9;
     border-radius: 10px;
     padding: 1rem;
@@ -1149,21 +1150,22 @@ footer {
     }
 
     .x-feeds {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        display: flex; /* Cambiar de grid a flex */
+        flex-direction: column; /* Apilar las columnas verticalmente */
         gap: 1.5rem;
     }
 
-    .x-feeds .x-feed:last-child {
+    /*.x-feeds .x-feed:last-child {
         grid-column: span 2;
-    }
+    }*/
 
     .x-feed h4 {
         font-size: 1.1rem;
     }
 
     .feed-container {
-        min-height: 300px;
+        height: 500px; /* Reducir altura en tablet */
+        padding: 0.75rem;
     }
 
     .faq {
@@ -1587,7 +1589,7 @@ footer {
     }
 
     .feed-container {
-        min-height: 250px;
+        height: 400px; /* Reducir altura en móvil */
         padding: 0.5rem;
     }
 

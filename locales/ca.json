@@ -1,0 +1,132 @@
+{
+  "header": {
+    "nav": {
+      "home": "Inici",
+      "services": "El que fem",
+      "about": "Qui som",
+      "location": "On som",
+      "news": "Actualitat",
+      "contact": "Contacte"
+    }
+  },
+  "footer": {
+    "navigation": "Navegació",
+    "schedule": "Horari",
+    "schedule_time": "Dilluns a divendres: 9:30 - 13:30",
+    "contact": "Contacte",
+    "email_label": "Correu electrònic:",
+    "email": "notariadecadaques@gmail.com",
+    "phone_label": "Telèfon:",
+    "phone": "972 259 066",
+    "address": "Adreça",
+    "address_value": "Carrer del Teatre, 4, Pis 1, 17488 Cadaqués (Girona)",
+    "copyright": "© 2025 Notaria de Cadaqués. Tots els drets reservats."
+  },
+  "hero": {
+    "title": "Notaria de Cadaqués",
+    "subtitle": "Pedro García de los Huertos Sánchez",
+    "button": "Tria notari per a la teva hipoteca",
+    "photo_credit": "Empordà Turisme"
+  },
+  "services": {
+    "title": "Els nostres serveis",
+    "herencias": {
+      "title": "Herències",
+      "description": "Gestió integral de successions."
+    },
+    "testamentos": {
+      "title": "Testaments",
+      "description": "Redacció i assessorament."
+    },
+    "compraventas": {
+      "title": "Compravendes",
+      "description": "Contractes de propietat."
+    },
+    "hipotecas": {
+      "title": "Hipoteques",
+      "description": "Formalització i gestió."
+    },
+    "cancelacion_de_hipotecas": {
+      "title": "Cancel·lació d'Hipoteques",
+      "description": "Formalització i gestió."
+    },
+    "bodas_y_divorcios": {
+      "title": "Casaments i Divorcis",
+      "description": "Matrimonis i separacions notarials."
+    },
+    "poderes": {
+      "title": "Poders",
+      "description": "Redacció i assessorament."
+    },
+    "sociedades": {
+      "title": "Societats",
+      "description": "Constitució i modificació."
+    },
+    "gestion_de_escrituras": {
+      "title": "Gestió d'escriptures",
+      "description": "Formalització i gestió."
+    },
+    "legitimaciones_y_compulsas": {
+      "title": "Legitimacions i Compulses",
+      "description": "Formalització i gestió."
+    },
+    "videoconferencias": {
+      "title": "Videoconferències",
+      "description": "Autorització en línia d'actuacions notarials."
+    },
+    "button": "Sol·licita més informació"
+  },
+  "faq": {
+    "title": "Preguntes freqüents",
+    "notario": {
+      "title": "Què és un Notari?",
+      "description_1": "Tal com assenyala el Reglament del Notariat, “els Notaris són alhora funcionaris públics i professionals del Dret.",
+      "description_2": "Com a <i>funcionaris</i> exerceixen la fe pública notarial, que té i empara un doble contingut:",
+      "description_3": "     <i>a)</i> En l'àmbit dels fets, l'exactitud dels que el Notari veu, sent o percep pels seus sentits.",
+      "description_4": "     <i>b)</i> I en l'àmbit del Dret, l'autenticitat i força probatòria de les declaracions de voluntat de les parts en l'instrument públic redactat conforme a les lleis.",
+      "description_5": "Com a <i>professionals del Dret</i> tenen la missió d'assessorar aquells que reclamen el seu ministeri i aconsellar-los els mitjans jurídics més adequats per assolir els fins lícits que aquests es proposen aconseguir.",
+      "description_6": "El Notariat gaudirà de plena autonomia i independència en la seva funció."
+    },
+    "funcion": {
+      "title": "Quina és la funció del Notari?",
+      "description": "Al Notariat correspon íntegrament i plenament l'exercici de la fe pública, en totes aquelles relacions de Dret privat que es pretenguin establir o declarar sense contesa judicial."
+    },
+    "libre_eleccion": {
+      "title": "Tinc dret a escollir lliurement el Notari?",
+      "description": "Sí, ja que els particulars tenen el dret de lliure elecció de Notari sense més limitacions que les previstes en l'ordenament jurídic, tal com assenyala l'article 2 del Reglament del Notariat."
+    },
+    "imparcialidad": {
+      "title": "El Notari és imparcial en la seva actuació?",
+      "description_1": "<i>El Notari, sense perjudici de la seva imparcialitat:</i>",
+      "description_2": "- <i>Prestarà assistència especial a l'atorgant més necessitat d'aquesta.</i>",
+      "description_3": "- Insistirà a informar cada una de les parts respecte de les clàusules proposades per l'altra part.",
+      "description_4": "- Comprovarà que no continguin condicions generals declarades nul·les per sentència ferma i inscrita al Registre de Condicions Generals.",
+      "description_5": "També assessorarà amb imparcialitat a les parts i vetllarà pel respecte dels drets bàsics dels consumidors i usuaris."
+    },
+    "costo": {
+      "title": "Quant costa el Notari?",
+      "description_1": "<i>Tots els Notaris d'Espanya cobren el mateix per un servei idèntic.</i> La competència entre ells es basa en la qualitat, cosa que garanteix l'accés de tots els ciutadans en les mateixes condicions als serveis de seguretat jurídica preventiva que presten els Notaris.",
+      "description_2": "Els Notaris apliquen un aranzel fix que va establir el Govern el 1989 i que des de llavors no s'ha revisat. L'aranzel és el mitjà pel qual es retribueix la funció notarial i el sistema amb què es finança la seguretat jurídica preventiva que presten els Notaris.",
+      "description_3": "Els honoraris notarials són només una petita part del que es paga a la notaria. La major part de la factura és una provisió per fer front a impostos, honoraris d'altres professionals i altres despeses que es generen, que el Notari abonarà en nom del client.",
+      "description_4": "A més, la factura cobreix íntegrament el servei notarial: oficina, sou de l'equip professional, assegurança de responsabilitat civil, informatització, enquadernació i conservació de les escriptures, manteniment dels col·legis notarials… només una part correspon als honoraris del Notari.",
+      "description_5": "Els aranzels dels Notaris van ser establerts per Reial Decret 1426/89 de 17 de novembre, publicat el 28 de novembre al BOE. Els aranzels espanyols són, després dels de Portugal, els més baixos d'Europa.",
+      "description_6": "A la notaria, els usuaris moltes vegades només assisteixen a la signatura de l'acord o contracte, però aquest és el resultat final d'un treball llarg, complex, minuciós i delicat. Està demostrat que el cost de l'aranzel notarial és molt inferior als costos i danys socials i econòmics que evita la intervenció del Notari.",
+      "reduccion_title": "Reducció d'aranzel de caràcter social",
+      "reduccion_description": "Entre d'altres, les escriptures de compravenda i de préstecs hipotecaris de les Vivendes de Protecció Oficial (VPO) tenen reduccions de l'aranzel de caràcter social.",
+      "source": "Font: Consell General del Notariat"
+    }
+  },
+  "popup": {
+    "title": "Tria notari per a hipoteca",
+    "description": "Si contractaràs un préstec hipotecari amb un banc, tu tens dret a triar notari. Si vols que t'assessorem gratuïtament i t'expliquem els detalls de l'operació amb tota claredat, omple les teves dades a continuació:",
+    "form": {
+      "nombre": "Nom *",
+      "apellidos": "Cognoms *",
+      "dni": "DNI/NIE *",
+      "telefono": "Telèfon *",
+      "email": "Correu electrònic *",
+      "banco": "Banc",
+      "submit": "Enviar"
+    }
+  }
+}

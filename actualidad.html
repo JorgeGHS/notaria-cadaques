@@ -11,38 +11,50 @@
 <body>
 <!-- Marcador para el header -->
 <div id="header-placeholder"></div>
+
 <main>
     <section class="news">
         <img src="./img/escudo-cadaques.png" alt="Escudo de Cadaqués" class="escudo">
         <h2>Actualidad</h2>
         <div class="news-section">
-            <p style="text-align: center; margin-bottom: 2rem; font-style: italic; margin-bottom: 2rem; color: #004225">Últimas publicaciones en X</p>
+            <p style="text-align: center; margin-bottom: 2rem; font-style: italic; color: #004225">Últimas publicaciones en X</p>
             <div class="x-feeds">
                 <div class="x-feed">
                     <h4>Notarios de España</h4>
                     <div id="notarios-es-feed" class="feed-container">
-                        <a class="twitter-timeline" href="https://twitter.com/Notarios_ES?ref_src=twsrc%5Etfw">Tweets by Notarios_ES</a>
+                        <a class="twitter-timeline"
+                           href="https://twitter.com/Notarios_ES?ref_src=twsrc%5Etfw"
+                           data-tweet-limit="5"
+                           data-height="600">Tweets by Notarios_ES</a>
                     </div>
                 </div>
                 <div class="x-feed">
                     <h4>Colegio Notarial de Cataluña</h4>
                     <div id="colnotaris-feed" class="feed-container">
-                        <a class="twitter-timeline" href="https://twitter.com/ColNotaris?ref_src=twsrc%5Etfw">Tweets by ColNotaris</a>
+                        <a class="twitter-timeline"
+                           href="https://twitter.com/ColNotaris?ref_src=twsrc%5Etfw"
+                           data-tweet-limit="5"
+                           data-height="600">Tweets by ColNotaris</a>
                     </div>
                 </div>
                 <div class="x-feed">
                     <h4>Justito El Notario</h4>
                     <div id="justitonotario-feed" class="feed-container">
-                        <a class="twitter-timeline" href="https://twitter.com/justitonotario?ref_src=twsrc%5Etfw">Tweets by justitonotario</a>
+                        <a class="twitter-timeline"
+                           href="https://twitter.com/justitonotario?ref_src=twsrc%5Etfw"
+                           data-tweet-limit="5"
+                           data-height="600">Tweets by justitonotario</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 </main>
+
 <!-- Marcador para el footer -->
 <div id="footer-placeholder"></div>
 
+<script src="https://unpkg.com/i18next@23.15.1/dist/umd/i18next.min.js"></script>
 <script src="./js/include.js"></script>
 <script src="./js/menu.js"></script>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

@@ -1,0 +1,132 @@
+{
+  "header": {
+    "nav": {
+      "home": "Inicio",
+      "services": "Lo que hacemos",
+      "about": "Quiénes somos",
+      "location": "Dónde estamos",
+      "news": "Actualidad",
+      "contact": "Contacto"
+    }
+  },
+  "footer": {
+    "navigation": "Navegación",
+    "schedule": "Horario",
+    "schedule_time": "Lunes a viernes: 9:30 - 13:30",
+    "contact": "Contacto",
+    "email_label": "Email:",
+    "email": "notariadecadaques@gmail.com",
+    "phone_label": "Teléfono:",
+    "phone": "972 259 066",
+    "address": "Dirección",
+    "address_value": "Carrer del Teatre, 4, Piso 1, 17488 Cadaqués (Girona)",
+    "copyright": "© 2025 Notaría de Cadaqués. Todos los derechos reservados."
+  },
+  "hero": {
+    "title": "Notaría de Cadaqués",
+    "subtitle": "Pedro García de los Huertos Sánchez",
+    "button": "Elige notario para tu hipoteca",
+    "photo_credit": "Empordà Turisme"
+  },
+  "services": {
+    "title": "Nuestros servicios",
+    "herencias": {
+      "title": "Herencias",
+      "description": "Gestión integral de sucesiones."
+    },
+    "testamentos": {
+      "title": "Testamentos",
+      "description": "Redacción y asesoramiento."
+    },
+    "compraventas": {
+      "title": "Compraventas",
+      "description": "Contratos de propiedad."
+    },
+    "hipotecas": {
+      "title": "Hipotecas",
+      "description": "Formalización y gestión."
+    },
+    "cancelacion_de_hipotecas": {
+      "title": "Cancelación de Hipotecas",
+      "description": "Formalización y gestión."
+    },
+    "bodas_y_divorcios": {
+      "title": "Bodas y Divorcios",
+      "description": "Matrimonios y separaciones notariales."
+    },
+    "poderes": {
+      "title": "Poderes",
+      "description": "Redacción y asesoramiento."
+    },
+    "sociedades": {
+      "title": "Sociedades",
+      "description": "Constitución y modificación."
+    },
+    "gestion_de_escrituras": {
+      "title": "Gestión de escrituras",
+      "description": "Formalización y gestión."
+    },
+    "legitimaciones_y_compulsas": {
+      "title": "Legitimaciones y Compulsas",
+      "description": "Formalización y gestión."
+    },
+    "videoconferencias": {
+      "title": "Videoconferencias",
+      "description": "Autorización online de actuaciones notariales."
+    },
+    "button": "Solicita más información"
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "notario": {
+      "title": "¿Qué es un Notario?",
+      "description_1": "Tal y como señala el Reglamento del Notariado, “los Notarios son a la vez funcionarios públicos y profesionales del Derecho.",
+      "description_2": "Como <i>funcionarios</i> ejercen la fe pública notarial, que tiene y ampara un doble contenido:",
+      "description_3": "     <i>a)</i> En la esfera de los hechos, la exactitud de los que el Notario ve, oye o percibe por sus sentidos.",
+      "description_4": "     <i>b)</i> Y en la esfera del Derecho, la autenticidad y fuerza probatoria de las declaraciones de voluntad de las partes en el instrumento público redactado conforme a las leyes.",
+      "description_5": "Como <i>profesionales del Derecho</i> tienen la misión de asesorar a quienes reclaman su ministerio y aconsejarles los medios jurídicos más adecuados para el logro de los fines lícitos que aquéllos se proponen alcanzar.",
+      "description_6": "El Notariado disfrutará de plena autonomía e independencia en su función."
+    },
+    "funcion": {
+      "title": "¿Cuál es la función del Notario?",
+      "description": "Al Notariado corresponde íntegra y plenamente el ejercicio de la fe pública, en cuantas relaciones de Derecho privado traten de establecerse o declararse sin contienda judicial."
+    },
+    "libre_eleccion": {
+      "title": "¿Tengo derecho a elegir libremente el Notario?",
+      "description": "Sí, pues los particulares tienen el derecho de libre elección de Notario sin más limitaciones que las previstas en el ordenamiento jurídico, tal y como señala el artículo 2 del Reglamento del Notariado."
+    },
+    "imparcialidad": {
+      "title": "¿El Notario es imparcial en su actuación?",
+      "description_1": "<i>El Notario, sin mengua de su imparcialidad:</i>",
+      "description_2": "- <i>Prestará asistencia especial al otorgante más necesitado de ella.</i>",
+      "description_3": "- Insistirá en informar a cada una de las partes respecto de las cláusulas propuestas por la otra parte.",
+      "description_4": "- Comprobará que no contienen condiciones generales declaradas nulas por sentencia firme e inscrita en el Registro de Condiciones Generales.",
+      "description_5": "También asesorará con imparcialidad a las partes y velará por el respeto de los derechos básicos de los consumidores y usuarios."
+    },
+    "costo": {
+      "title": "¿Cuánto cuesta el Notario?",
+      "description_1": "<i>Todos los Notarios de España cobran lo mismo por idéntico servicio.</i> La competencia entre ellos se basa en la calidad, lo que garantiza el acceso de todos los ciudadanos en las mismas condiciones a los servicios de seguridad jurídica preventiva que prestan los Notarios.",
+      "description_2": "Los Notarios aplican un arancel fijo que estableció el Gobierno en 1989 y que desde entonces no se ha revisado. El arancel es el medio por el que se retribuye la función notarial y el sistema con el que se financia la seguridad jurídica preventiva que prestan los Notarios.",
+      "description_3": "Los honorarios notariales son sólo una pequeña parte de lo que se paga en la notaría. La mayor parte de la factura es una provisión para hacer frente a impuestos, honorarios de otros profesionales y otros gastos que se generan, que el Notario abonará en nombre del cliente.",
+      "description_4": "Además, la factura cubre íntegramente el servicio notarial: oficina, sueldo del equipo profesional, seguro de responsabilidad civil, informatización, encuadernación y conservación de las escrituras, mantenimiento de los colegios notariales… sólo una parte corresponde a los honorarios del Notario.",
+      "description_5": "Los aranceles de los Notarios fueron establecidos por Real Decreto 1426/89 de 17 de noviembre, publicado el 28 de noviembre en el BOE. Los aranceles españoles son, después de los de Portugal, los más bajos de Europa.",
+      "description_6": "En la notaría los usuarios muchas veces sólo asisten a la firma del acuerdo o contrato, pero éste es el resultado final de un trabajo largo, complejo, minucioso y delicado. Está demostrado que el coste del arancel notarial es muy inferior a los costes y daños sociales y económicos que evita la intervención del Notario.",
+      "reduccion_title": "Reducción de arancel de carácter social",
+      "reduccion_description": "Entre otras, las escrituras de compraventa y de préstamos hipotecarios de las Viviendas de Protección Oficial (VPO) tienen reducciones del arancel de carácter social.",
+      "source": "Fuente: Consejo General del Notariado"
+    }
+  },
+  "popup": {
+    "title": "Elige notario para hipoteca",
+    "description": "Si vas a contratar un préstamo hipotecario con un banco, tú tienes derecho a elegir notario. Si quieres que te asesoremos gratuitamente y te expliquemos los detalles de la operación con toda claridad, rellena tus datos a continuación:",
+    "form": {
+      "nombre": "Nombre *",
+      "apellidos": "Apellidos *",
+      "dni": "DNI/NIE *",
+      "telefono": "Teléfono *",
+      "email": "Email *",
+      "banco": "Banco",
+      "submit": "Enviar"
+    }
+  }
+}
