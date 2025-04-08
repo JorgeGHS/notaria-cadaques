@@ -202,5 +202,24 @@
         "tweets": "Tweets de justitonotario"
       }
     }
+  },
+  "contact": {
+    "page_title": "Contact - Notaire de Cadaqués",
+    "title": "Contact",
+    "info": {
+      "title": "Notaire de Cadaqués",
+      "subtitle": "Pedro García de los Huertos Sánchez",
+      "address_label": "Adresse:",
+      "address": "Carrer del Teatre, 4, Étage 1, 17488 Cadaqués (Gérone)",
+      "email_label": "Email:",
+      "phone_label": "Téléphone:",
+      "phone": "972 259 066"
+    },
+    "form": {
+      "nombre_label": "Nom:",
+      "email_label": "Email:",
+      "mensaje_label": "Message:",
+      "submit": "Envoyer le message"
+    }
   }
 }
