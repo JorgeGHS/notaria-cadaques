@@ -183,5 +183,24 @@
     "title": "On som",
     "description_1": "Cadaqués és un pintoresc poble costaner situat a la comarca de l’Alt Empordà, a la província de Girona. Ubicat al Parc Natural del Cap de Creus, aquest antic poble de pescadors és famós per les seves cases blanques, carrers empedrats i el seu impressionant entorn natural davant del mar Mediterrani. A més de la seva bellesa, Cadaqués és conegut per la seva rica vida cultural. Va ser un lloc d’inspiració i refugi per a nombrosos artistes, especialment Salvador Dalí, que va viure a la propera Portlligat. També va atraure figures com Picasso, García Lorca i Marcel Duchamp.",
     "description_2": "Avui dia, Cadaqués és una destinació turística molt valorada que ha sabut conservar la seva autenticitat, combinant la seva història artística amb un ambient relaxat i encantador. No és casualitat que la seva llum, la seva atmosfera i el seu caràcter únic hagin estat escollits en més d’una ocasió com a escenari d’inspiració per a pel·lícules, sèries de televisió o campanyes publicitàries."
+  },
+  "news": {
+    "page_title": "Actualitat - Notaria de Cadaqués",
+    "title": "Actualitat",
+    "subtitle": "Últimes publicacions a X",
+    "feeds": {
+      "notarios_es": {
+        "title": "Notaris d’Espanya",
+        "tweets": "Tuits de Notarios_ES"
+      },
+      "colnotaris": {
+        "title": "Col·legi Notarial de Catalunya",
+        "tweets": "Tuits de ColNotaris"
+      },
+      "justitonotario": {
+        "title": "Justito El Notari",
+        "tweets": "Tuits de justitonotario"
+      }
+    }
   }
 }
