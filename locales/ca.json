@@ -157,5 +157,25 @@
       "banco": "Banc",
       "submit": "Enviar"
     }
+  },
+  "about": {
+    "page_title": "Qui som - Notaria de Cadaqués",
+    "title": "Qui som",
+    "notary": {
+      "title": "El Notari",
+      "description_1": "Pedro García de los Huertos Sánchez és Notari per oposició guanyada l'any 2024.",
+      "description_2": "Amb caràcter previ, va cursar els següents estudis:",
+      "studies_1": "<i>Grau en Dret</i> per l’Institut d’Estudis Bursàtils (IEB).",
+      "studies_2": "<i>Màster d’Accés a l’Advocacia, amb especialització en Dret dels Mercats Financers</i>.",
+      "studies_3": "<i>Màster en Borsa i Mercats Financers</i> per l’IEB i la London School of Economics and Political Science (LSE).",
+      "description_3": "Pertany a l’Il·lustre Col·legi Notarial de Catalunya.",
+      "description_4": "També és Preparador d’opositors a Notaries a l’Acadèmia Matritense del Notariat."
+    },
+    "philosophy": {
+      "title": "La nostra filosofia",
+      "description_1": "Sabem que quan vas a signar un document jurídic estàs preocupat per les conseqüències que pot comportar. Ho sabem i estem aquí per explicar-te molt clarament què signaràs i resoldre tots els teus dubtes. Només necessitem que ens exposis què vols que t’aclarim i què no acabes d’entendre. T’ho explicarem amb tot detall.",
+      "description_2": "Un cop preparada l’escriptura, tu tries el dia i l’hora, dins de l’horari de la Notaria, que et vagi millor per venir a signar.",
+      "description_3": "Els testaments, poders i altres escriptures que no requereixen tramitació posterior s’entreguen al moment perquè no hagis de tornar a recollir-los."
+    }
   }
 }

@@ -157,5 +157,25 @@
       "banco": "Banque",
       "submit": "Envoyer"
     }
+  },
+  "about": {
+    "page_title": "Qui sommes-nous - Notaire de Cadaqués",
+    "title": "Qui sommes-nous",
+    "notary": {
+      "title": "Le Notaire",
+      "description_1": "Pedro García de los Huertos Sánchez est notaire, ayant réussi le concours en 2024.",
+      "description_2": "Auparavant, il a suivi les études suivantes :",
+      "studies_1": "<i>Licence en Droit</i> à l’Institut d’Études Boursières (IEB).",
+      "studies_2": "<i>Master d’Accès à la Profession d’Avocat, avec une spécialisation en Droit des Marchés Financiers</i>.",
+      "studies_3": "<i>Master en Bourse et Marchés Financiers</i> à l’IEB et à la London School of Economics and Political Science (LSE).",
+      "description_3": "Il est membre de l’Illustre Collège Notarial de Catalogne.",
+      "description_4": "Il est également formateur pour les candidats aux concours de notaire à l’Académie Matritense du Notariat."
+    },
+    "philosophy": {
+      "title": "Notre philosophie",
+      "description_1": "Nous savons que lorsque vous allez signer un document juridique, vous êtes préoccupé par les conséquences que cela peut entraîner. Nous le comprenons et nous sommes là pour vous expliquer très clairement ce que vous allez signer et répondre à toutes vos questions. Il vous suffit de nous indiquer ce que vous souhaitez que nous clarifiions ou ce que vous ne comprenez pas bien. Nous vous l’expliquerons en détail.",
+      "description_2": "Une fois l’acte préparé, vous choisissez le jour et l’heure, dans les horaires du notaire, qui vous conviennent le mieux pour venir signer.",
+      "description_3": "Les testaments, procurations et autres actes ne nécessitant pas de démarches ultérieures vous sont remis immédiatement, afin que vous n’ayez pas à revenir les chercher."
+    }
   }
 }

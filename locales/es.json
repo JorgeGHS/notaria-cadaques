@@ -157,5 +157,25 @@
       "banco": "Banco",
       "submit": "Enviar"
     }
+  },
+  "about": {
+    "page_title": "Quiénes somos - Notaría de Cadaqués",
+    "title": "Quiénes somos",
+    "notary": {
+      "title": "El Notario",
+      "description_1": "Pedro García de los Huertos Sánchez es Notario por oposición ganada en el año 2024.",
+      "description_2": "Con carácter previo, cursó los siguientes estudios:",
+      "studies_1": "<i>Grado en Derecho</i> por el Instituto de Estudios Bursátiles (IEB).",
+      "studies_2": "<i>Máster de Acceso a la Abogacía, con especialización en Derecho de los Mercados Financieros</i>.",
+      "studies_3": "<i>Máster en Bolsa y Mercados Financieros</i> por el IEB y la London School of Economics and Political Science (LSE).",
+      "description_3": "Pertenece al Ilustre Colegio Notarial de Cataluña.",
+      "description_4": "También es Preparador de opositores a Notarías en la Academia Matritense del Notariado."
+    },
+    "philosophy": {
+      "title": "Nuestra filosofía",
+      "description_1": "Sabemos que cuando vas a firmar un documento jurídico estás preocupado por las consecuencias que puede conllevar. Lo sabemos y estamos aquí para explicarte muy claramente lo que vas a firmar y resolver todas tus dudas. Sólo necesitamos que nos expongas lo que quieres que te aclaremos y lo que no acabas de entender. Te los explicaremos con todo detalle.",
+      "description_2": "Una vez preparada la escritura, tú eliges el día y la hora, dentro del horario de la Notaría, que mejor te venga para venir a firmar.",
+      "description_3": "Los testamentos, poderes y otras escrituras que no requieren posterior tramitación se entregan en el momento para que no tengas que volver a recogerlos."
+    }
   }
 }
