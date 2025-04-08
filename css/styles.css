@@ -827,6 +827,29 @@ footer {
     color: #004225;
 }
 
+/* Crédito de la foto en la sección Hero */
+.photo-credit {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    color: white;
+    font-size: 0.75rem !important;
+    margin-bottom: 0.25rem !important;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+    z-index: 2;
+}
+
+.photo-credit a {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    transition: color 0.3s;
+}
+
+.photo-credit a:hover {
+    color: #b3d4c2;
+}
+
 
 /* Responsive Design */
 
@@ -1173,6 +1196,11 @@ footer {
         font-size: 0.8rem;
     }
 
+    .photo-credit {
+        font-size: 0.5rem !important;
+        bottom: 0.75rem;
+        right: 0.75rem;
+    }
 }
 
 /* Móvil (hasta 767px) */
@@ -1592,5 +1620,11 @@ footer {
 
     .source {
         font-size: 0.75rem;
+    }
+
+    .photo-credit {
+        font-size: 0.35rem !important;
+        bottom: 0.5rem;
+        right: 0.5rem;
     }
 }
