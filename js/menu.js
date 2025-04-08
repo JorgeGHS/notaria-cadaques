@@ -1,3 +1,4 @@
+/*
 document.addEventListener('DOMContentLoaded', function () {
     // Seleccionar los elementos
     const menuToggle = document.querySelector('.menu-toggle');
@@ -32,4 +33,4 @@ document.addEventListener('DOMContentLoaded', function () {
     } else {
         console.warn('No se encontraron enlaces en el menú de navegación');
     }
-});
+});*/
