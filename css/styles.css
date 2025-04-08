@@ -85,11 +85,12 @@ header {
     transform: translateY(-8px) rotate(-45deg);
 }
 
-/* Menú de navegación (sin cambios en escritorio) */
+/* Menú de navegación */
 nav {
     flex: 1;
     display: flex;
-    justify-content: center;
+    justify-content: center; /* Centra el menú */
+    margin-left: 2rem; /* Añade espacio a la izquierda para separar del logo */
 }
 
 nav ul {
@@ -858,6 +859,84 @@ footer {
     color: #b3d4c2;
 }
 
+/* Estilos para el selector de idiomas */
+.language-selector {
+    display: inline-block; /* Para que el contenedor se ajuste al tamaño del select */
+    margin-left: inherit; /* Alinea el selector a la derecha en escritorio y tablet */
+}
+
+.custom-select {
+    position: relative; /* Para posicionar la lista desplegable */
+    display: inline-block;
+}
+
+.selected-option {
+    background-color: #f9f9f9; /* Fondo claro */
+    color: #004225; /* Color del texto */
+    padding: 0.5rem 2rem 0.5rem 1rem; /* Espaciado interno */
+    border: 1px solid #004225; /* Borde en el color principal */
+    border-radius: 5px; /* Bordes redondeados */
+    font-family: 'Roboto', sans-serif; /* Misma fuente que el resto del sitio */
+    font-size: 1rem; /* Tamaño de fuente */
+    font-weight: 700; /* Peso de la fuente */
+    cursor: pointer; /* Cursor de puntero */
+    transition: background-color 0.3s, border-color 0.3s; /* Transiciones suaves */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 120px; /* Ancho mínimo para evitar que se encoja demasiado */
+}
+
+.selected-option:hover {
+    background-color: #e6f0e6; /* Fondo más claro al pasar el mouse */
+    border-color: #002b18; /* Borde más oscuro */
+}
+
+.selected-option .arrow {
+    margin-left: 0.5rem;
+    font-size: 0.8rem;
+    color: #004225;
+    transition: transform 0.3s;
+}
+
+.selected-option.active .arrow {
+    transform: rotate(180deg); /* Rota la flecha cuando el desplegable está abierto */
+}
+
+.options-list {
+    position: absolute;
+    top: 100%; /* Justo debajo del elemento seleccionado */
+    left: 0;
+    width: 100%;
+    background-color: #f9f9f9;
+    border: 1px solid #004225;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: none; /* Oculto por defecto */
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.options-list.active {
+    display: block; /* Muestra la lista cuando está activa */
+}
+
+.options-list li {
+    padding: 0.5rem 1rem;
+    color: #004225;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.options-list li:hover {
+    background-color: #e6f0e6; /* Fondo más claro al pasar el mouse */
+}
+
 
 /* Responsive Design */
 
@@ -874,8 +953,16 @@ footer {
         max-width: 60px;
     }
 
+    nav {
+        flex: 1;
+        display: flex;
+        justify-content: flex-end; /* Alinea el contenido de nav a la derecha */
+        align-items: center; /* Centra verticalmente */
+    }
+
     nav ul {
-        gap: 1.5rem;
+        gap: 1rem; /* Reduce el espacio entre los enlaces para que quepan mejor */
+        margin-left: 1rem; /* Añade un margen a la izquierda para separar del logo */
     }
 
     nav a {
@@ -1210,15 +1297,36 @@ footer {
         bottom: 0.75rem;
         right: 0.75rem;
     }
+
+    .language-selector {
+        margin-left: auto; /* Asegura que el selector se alinee a la derecha */
+        margin-right: 1rem; /* Añade un poco de espacio a la derecha */
+    }
+
+    .selected-option {
+        font-size: 0.9rem; /* Tamaño de fuente más pequeño para tablet */
+        padding: 0.4rem 1.5rem 0.4rem 0.8rem; /* Ajusta el espaciado */
+        min-width: 110px; /* Ajusta el ancho mínimo */
+    }
+
+    .selected-option .arrow {
+        font-size: 0.7rem; /* Tamaño de la flecha más pequeño */
+    }
+
+    .options-list li {
+        font-size: 0.9rem; /* Tamaño de fuente más pequeño para las opciones */
+        padding: 0.4rem 0.8rem; /* Ajusta el espaciado */
+    }
 }
 
 /* Móvil (hasta 767px) */
 @media (max-width: 767px) {
     .header-container {
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: space-between; /* Asegura que el logo y el botón hamburguesa estén en los extremos */
         padding: 0.5rem 1rem;
         position: relative;
+        align-items: center; /* Centra verticalmente los elementos */
     }
 
     .logo {
@@ -1227,6 +1335,7 @@ footer {
 
     .menu-toggle {
         display: block;
+        margin-left: auto; /* Alinea el botón hamburguesa a la derecha */
     }
 
     nav {
@@ -1635,5 +1744,27 @@ footer {
         font-size: 0.35rem !important;
         bottom: 0.5rem;
         right: 0.5rem;
+    }
+
+    .language-selector {
+        margin: 1rem 0; /* Espaciado dentro del menú */
+        display: flex;
+        justify-content: center; /* Centra el selector dentro del menú */
+    }
+
+    .selected-option {
+        font-size: 1rem; /* Tamaño de fuente adecuado para móvil */
+        padding: 0.5rem 2rem 0.5rem 1rem; /* Ajusta el espaciado */
+        width: 90%; /* Asegura que el selector ocupe casi todo el ancho del menú */
+        max-width: 200px; /* Limita el ancho máximo */
+    }
+
+    .selected-option .arrow {
+        font-size: 0.8rem; /* Tamaño de la flecha */
+    }
+
+    .options-list li {
+        font-size: 1rem; /* Tamaño de fuente adecuado para móvil */
+        padding: 0.5rem 1rem; /* Ajusta el espaciado */
     }
 }

@@ -21,9 +21,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 fetch('./locales/fr.json').then(res => res.json())
             ]);
 
+            // Obtener el idioma guardado en localStorage, o usar 'es' como predeterminado
+            const savedLanguage = localStorage.getItem('language') || 'es';
+            console.log('Idioma recuperado de localStorage:', savedLanguage); // Depuración
+
             // Inicializar i18next
             await i18next.init({
-                lng: 'es', // Idioma por defecto: español
+                lng: savedLanguage, // Usar el idioma guardado
                 fallbackLng: 'es', // Idioma de respaldo
                 resources: {
                     es: { translation: es },
@@ -51,23 +55,59 @@ document.addEventListener('DOMContentLoaded', () => {
             // Actualizar las traducciones inicialmente
             updateTranslations();
 
-            // Manejar el cambio de idioma
-            const languageSwitcher = document.querySelector('#language-switcher');
-            if (languageSwitcher) {
-                languageSwitcher.addEventListener('change', (event) => {
-                    const newLang = event.target.value;
+            // Manejar el selector de idiomas personalizado
+            const customSelect = document.querySelector('.custom-select');
+            const selectedOption = customSelect.querySelector('.selected-option');
+            const optionsList = customSelect.querySelector('.options-list');
+            const options = optionsList.querySelectorAll('li');
+
+            // Establecer la opción inicial según el idioma guardado
+            const languageNames = {
+                es: 'Español',
+                ca: 'Català',
+                fr: 'Français'
+            };
+            selectedOption.querySelector('span').textContent = languageNames[savedLanguage];
+            selectedOption.querySelector('span').setAttribute('data-lang', savedLanguage);
+
+            // Mostrar/ocultar la lista al hacer clic en la opción seleccionada
+            selectedOption.addEventListener('click', () => {
+                optionsList.classList.toggle('active');
+                selectedOption.classList.toggle('active');
+            });
+
+            // Manejar la selección de una opción
+            options.forEach(option => {
+                option.addEventListener('click', () => {
+                    const newLang = option.getAttribute('data-lang');
+                    console.log('Cambiando idioma a:', newLang); // Depuración
                     i18next.changeLanguage(newLang, (err) => {
                         if (err) {
                             console.error('Error al cambiar el idioma:', err);
                             return;
                         }
+                        // Guardar el idioma seleccionado en localStorage
+                        localStorage.setItem('language', newLang);
+                        console.log('Idioma guardado en localStorage:', localStorage.getItem('language')); // Depuración
+                        // Actualizar la opción seleccionada
+                        selectedOption.querySelector('span').textContent = option.textContent;
+                        selectedOption.querySelector('span').setAttribute('data-lang', newLang);
+                        // Cerrar la lista
+                        optionsList.classList.remove('active');
+                        selectedOption.classList.remove('active');
+                        // Actualizar las traducciones
                         updateTranslations();
                     });
                 });
+            });
 
-                // Establecer el idioma inicial en el selector
-                languageSwitcher.value = i18next.language;
-            }
+            // Cerrar la lista si se hace clic fuera del selector
+            document.addEventListener('click', (event) => {
+                if (!customSelect.contains(event.target)) {
+                    optionsList.classList.remove('active');
+                    selectedOption.classList.remove('active');
+                }
+            });
         } catch (error) {
             console.error('Error al inicializar las traducciones:', error);
         }
