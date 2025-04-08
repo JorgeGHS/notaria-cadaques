@@ -833,11 +833,14 @@ footer {
 /* Tablet (768px - 1023px) */
 @media (max-width: 1023px) and (min-width: 768px) {
     .header-container {
-        padding: 0.75rem;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0.5rem 1rem;
+        position: relative;
     }
 
     .logo {
-        max-width: 75px;
+        max-width: 60px;
     }
 
     nav ul {
@@ -1395,7 +1398,18 @@ footer {
         align-items: center;
     }
 
+    /* Reordenar los elementos en móvil */
+    .location-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .location-media {
+        order: 1; /* El contenedor de medios (mapa y video) va primero */
+    }
+
     .location-text {
+        order: 2; /* El texto va al final */
         text-align: center;
     }
 
@@ -1405,6 +1419,17 @@ footer {
 
     .location-media {
         align-items: center; /* Centra los elementos hijos horizontalmente */
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .location-map {
+        order: 1; /* El mapa va primero dentro de location-media */
+    }
+
+    .location-video {
+        order: 2; /* El video va después del mapa */
     }
 
     .location-map,
