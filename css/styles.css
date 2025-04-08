@@ -873,7 +873,7 @@ footer {
 .selected-option {
     background-color: #f9f9f9; /* Fondo claro */
     color: #004225; /* Color del texto */
-    padding: 0.5rem 2rem 0.5rem 1rem; /* Espaciado interno */
+    padding: 0.25rem 1rem 0.25rem 0.5rem; /* Espaciado interno */
     border: 1px solid #004225; /* Borde en el color principal */
     border-radius: 5px; /* Bordes redondeados */
     font-family: 'Roboto', sans-serif; /* Misma fuente que el resto del sitio */
