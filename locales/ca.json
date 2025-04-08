@@ -177,5 +177,11 @@
       "description_2": "Un cop preparada l’escriptura, tu tries el dia i l’hora, dins de l’horari de la Notaria, que et vagi millor per venir a signar.",
       "description_3": "Els testaments, poders i altres escriptures que no requereixen tramitació posterior s’entreguen al moment perquè no hagis de tornar a recollir-los."
     }
+  },
+  "location": {
+    "page_title": "On som - Notaria de Cadaqués",
+    "title": "On som",
+    "description_1": "Cadaqués és un pintoresc poble costaner situat a la comarca de l’Alt Empordà, a la província de Girona. Ubicat al Parc Natural del Cap de Creus, aquest antic poble de pescadors és famós per les seves cases blanques, carrers empedrats i el seu impressionant entorn natural davant del mar Mediterrani. A més de la seva bellesa, Cadaqués és conegut per la seva rica vida cultural. Va ser un lloc d’inspiració i refugi per a nombrosos artistes, especialment Salvador Dalí, que va viure a la propera Portlligat. També va atraure figures com Picasso, García Lorca i Marcel Duchamp.",
+    "description_2": "Avui dia, Cadaqués és una destinació turística molt valorada que ha sabut conservar la seva autenticitat, combinant la seva història artística amb un ambient relaxat i encantador. No és casualitat que la seva llum, la seva atmosfera i el seu caràcter únic hagin estat escollits en més d’una ocasió com a escenari d’inspiració per a pel·lícules, sèries de televisió o campanyes publicitàries."
   }
 }
